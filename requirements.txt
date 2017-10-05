@@ -1,0 +1,11 @@
+numpy==1.13.3
+pandas==0.20.3
+ipykernel==4.6.1
+jupyter==1.0.0
+matplotlib==2.0.2
+ipywidgets==7.0.1 # for interactive plots
+dash==0.18.3  # The core dash backend
+dash-renderer==0.10.0  # The dash front-end
+dash-html-components==0.7.0 # HTML components
+dash-core-components==0.12.6  # Supercharged components
+plotly==2.0.11  # Plotly graphing library used in examples
