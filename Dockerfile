@@ -30,20 +30,9 @@ RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
 RUN useradd -ms /bin/bash dash_demo
 USER dash_demo
 WORKDIR /home/dash_demo
-
+ADD requirements.txt requirements.txt
 RUN pip3 --no-cache-dir install --user \
-        Pillow \
-        h5py \
-        ipykernel \
-        jupyter \
-        matplotlib \
-        numpy \
-        pandas \
-        dash==0.18.3 \
-		dash-renderer==0.10.0 \ 
-		dash-html-components==0.7.0 \ 
-		dash-core-components==0.12.6 \
-		plotly==2.0.11 
+		-r requirements.txt
 
 RUN python3 -m ipykernel install --user
 
@@ -63,14 +52,16 @@ COPY run_jupyter.sh .
 
 # IPython
 EXPOSE 8888
+# dash
+EXPOSE 9999
 
 USER dash_demo
 WORKDIR /home/dash_demo
 ENV PATH="/home/dash_demo/.local/bin:${PATH}"
-
+# copy notebooks
+ADD notebooks notebooks
 # setup the basic directories
 # this will be overwritten with a mount point later
 RUN mkdir data
-
 
 CMD ["./run_jupyter.sh", "--allow-root"]
