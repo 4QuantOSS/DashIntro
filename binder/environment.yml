@@ -1,0 +1,18 @@
+name: dash
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - numpy
+  - pandas
+  - nbserverproxy
+  - matplotlib
+  - pip:
+    - ipywidgets==7.0.1 # for interactive plots
+    - dash==0.18.3  # The core dash backend
+    - dash-renderer==0.10.0  # The dash front-end
+    - dash-html-components==0.7.0 # HTML components
+    - dash-core-components==0.12.6  # Supercharged components
+    - plotly==2.0.11  # Plotly graphing library used in examples
+    
