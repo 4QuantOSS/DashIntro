@@ -6,9 +6,9 @@ To use binder just click the link below. The first opens the tutorial notebook a
 
 A repository for getting started with Dash using Jupyter and Binder
 
-- Try tutorial: [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/ohif_binder/master?filepath=notebooks%2FTutorial.ipynb)
+- Try tutorial: [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?filepath=notebooks%2FTutorial.ipynb)
 
-- Try jupyterlab [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/ohif_binder/master?urlpath=lab)
+- Try jupyterlab [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?urlpath=lab)
 
 
 
@@ -17,7 +17,7 @@ A repository for getting started with Dash using Jupyter and Binder
 
 You can use the jupyter-repo2docker tool to make a Dockerfile from the repository
 ```
-jupyter-repo2docker https://github.com/4QuantOSS/ohif_binder/
+jupyter-repo2docker https://github.com/4QuantOSS/DashIntro/
 ```
 
 
