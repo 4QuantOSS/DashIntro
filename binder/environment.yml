@@ -6,8 +6,9 @@ dependencies:
   - python=3.6
   - numpy
   - pandas
-  - nbserverproxy
   - matplotlib
+  - nbserverproxy
+  - appmode
   - pip:
     - ipywidgets==7.0.1 # for interactive plots
     - dash==0.18.3  # The core dash backend
