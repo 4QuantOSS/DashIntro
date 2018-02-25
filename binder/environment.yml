@@ -16,4 +16,7 @@ dependencies:
     - dash-html-components==0.7.0 # HTML components
     - dash-core-components==0.12.6  # Supercharged components
     - plotly==2.0.11  # Plotly graphing library used in examples
+    - dash-dangerously-set-inner-html
+    - dash_colorscales
+    - dash-table-experiments
     
