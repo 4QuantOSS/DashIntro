@@ -1,16 +1,30 @@
 # Dash Demo
 
-# Getting Started 
+# Getting Started
 
-To use binder just click the link below. The first opens the tutorial notebook and the second takes you straight to jupyterlab for more experimentation 
+To use binder just click the link below. The first opens the tutorial notebook and the second takes you straight to jupyterlab for more experimentation
 
 A repository for getting started with Dash using Jupyter and Binder
 
-- Try tutorial: [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?filepath=notebooks%2FTutorial.ipynb)
+- Try jupyterlab [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master)
 
-- Try jupyterlab [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?urlpath=lab)
+# Examples
 
+- Tutorial
+  - [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?filepath=notebooks%2FTutorial.ipynb)
+  - [AppMode](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?urlpath=%2Fapps%2Fnotebooks%2FTutorial.ipynb)
 
+- Table View (https://github.com/plotly/dash-table-experiments)
+  - [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?filepath=notebooks%2FTableExample.ipynb)
+  - [AppMode](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?urlpath=%2Fapps%2Fnotebooks%2FTableExample.ipynb)
+
+- Colorscales (https://github.com/plotly/dash-colorscales)
+  - [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?filepath=notebooks%2FColorscales.ipynb)
+  - [AppMode](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?urlpath=%2Fapps%2Fnotebooks%2FColorscales.ipynb)
+
+- Raw HTML Support, dangerous (https://github.com/plotly/dash-dangerously-set-inner-html)
+  - [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?filepath=notebooks%2FRawHTML.ipynb)
+  - [AppMode](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?urlpath=%2Fapps%2Fnotebooks%2FRawHTML.ipynb)
 
 
 # Docker (new)
@@ -26,7 +40,7 @@ All of the older docker files are in the Docker subdirectory
 
 ### Build
 
-To make the image yourself you can use the 
+To make the image yourself you can use the
 ```
 docker build . -t dashdemo
 ```
