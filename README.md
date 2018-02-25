@@ -26,6 +26,12 @@ A repository for getting started with Dash using Jupyter and Binder
   - [![Binder](https://beta.mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?filepath=notebooks%2FRawHTML.ipynb)
   - [AppMode](https://mybinder.org/v2/gh/4QuantOSS/DashIntro/master?urlpath=%2Fapps%2Fnotebooks%2FRawHTML.ipynb)
 
+- VisDCC (https://github.com/jimmybow/visdcc)
+  - WIP since the bundle.js isn't hosted on a CDN yet
+  
+- mydcc (https://github.com/jimmybow/mydcc)
+  - WIP since the bundle.js isn't hosted on a CDN yet
+
 
 # Docker (new)
 

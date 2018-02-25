@@ -11,12 +11,11 @@ dependencies:
   - appmode
   - pip:
     - ipywidgets==7.0.1 # for interactive plots
-    - dash==0.18.3  # The core dash backend
-    - dash-renderer==0.10.0  # The dash front-end
-    - dash-html-components==0.7.0 # HTML components
-    - dash-core-components==0.12.6  # Supercharged components
-    - plotly==2.0.11  # Plotly graphing library used in examples
+    - dash==0.21.0  # The core dash backend
+    - dash-renderer==0.11.3  # The dash front-end
+    - dash-html-components==0.9.0 # HTML components
+    - dash-core-components==0.18.1  # Supercharged components
+    - plotly==2.4.1  # Plotly graphing library used in examples
     - dash-dangerously-set-inner-html
     - dash_colorscales
     - dash-table-experiments
-    
